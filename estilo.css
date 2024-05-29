@@ -1,0 +1,80 @@
+li{
+  font-weight: bold;
+}
+
+header{
+    background-repeat: no-repeat;
+	background-size: cover;
+}
+
+header {
+    height: 50vh; /* 50% de la altura de la ventana gráfica */
+    padding: 0px;
+    margin: 0;
+  }
+
+  @media (max-width: 600px) {
+    header {
+      height: 20vh; /* Ajuste para pantallas más pequeñas, si el ancho de la pantalla es menor a 600 pixeles*/
+    }
+  }
+
+  #Bar{
+
+    background-color: rgba(59, 57, 57, 0.849);
+    height: 5vh; /* 50% de la altura de la ventana gráfica */
+    padding:10px;
+    margin: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 0%;
+    padding-right: 5%;
+
+    font-weight: bold;
+  }
+
+.Items{
+    display: inline-block;
+    padding: 0px 10px;
+    color: white;
+    text-decoration: none;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    
+}
+
+.Items:hover{
+    color: rgb(9, 160, 160);
+}
+
+.ItemsPrincipios{
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+thead{
+  background-color: #1d1c1c;
+  color: white;
+  font-size: 23px;
+}
+
+
+
+table tbody tr:nth-child(even){ /*even - odd */
+  background-color: #c6c6c6;
+}
+
+a{
+  color: black;
+}
+
+tr {
+  height: 40px; 
+}
